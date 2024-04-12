@@ -1,0 +1,48 @@
+
+main>nav{
+    background-color: orange;
+    padding-left: 500px;
+}
+main>nav>ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 10px 0;
+    margin-right: 0%;
+ }
+ nav>ul>li{
+
+    display: inline;
+ }
+ ul>li>a{
+    /*text-transform: uppercase;*/
+    /*padding: 2%;*/
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.733);
+}
+ #About{
+    display: flex;
+    padding-top: 5rem;
+ }
+
+ 
+ table{
+    width: 800px;
+    border: solid green ;
+ }
+ th{
+    text-align: left;
+    padding: 10px;
+ }
+ table tr td{
+    border: 1px solid red;
+ }
+ th td{
+    padding: 10px;
+ }
+ 
