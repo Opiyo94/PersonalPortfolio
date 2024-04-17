@@ -1,0 +1,95 @@
+body{
+    background-color: rgb(15, 15, 61);
+}
+header{
+    color: white;
+    display: flex;
+    margin: 30 0 ;
+    font-size: 15px;
+    justify-content: space-between;
+    font-weight: 30px;
+}
+.name a{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 100;
+    padding-left: 100px;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+.navbar a:hover{
+    color: #00abf0;
+}
+.northerns{
+    padding: 100px;
+    width: 350px;
+    color: white;
+}
+.northerns h2{
+    color: #00abf0;
+}
+.southerns {
+    margin-top: 30px;
+    color: white;
+}
+.southerns a{
+    padding: 20px;
+    color: black;
+    text-decoration: none;
+    width: 200px;
+    gap: 30px;
+    border: 2px solid #00abf0;
+    border-radius: 10px;
+    background-color: #00abf0;
+}
+.southerns a:nth-child(2){
+    background-color: transparent;
+    color: white;
+}
+.southerns a:hover{
+    background-color: rgb(15, 15, 61);
+    color: white;
+    transition: 2s;
+}
+.southerns a:nth-child(2):hover{
+    background-color: #00abf0;
+    color: black;
+}
+.icons{
+   /* background-color: white;*/
+    /*width: 300px;*/
+    padding-left: 100px;
+}
+.icons a{
+    display: inline-flex;
+    border-radius: 50%;
+    /*justify-content: center;*/
+    align-items: center;
+    /*border: 2px solid #00abf0;*/
+    color: #00abf0;
+    background-color: white;
+}
+.icons a:hover{
+    background-color: #00abf0;
+}
+.img img{
+    position: absolute;
+    /*width: 400px;*/
+    height: 80vh;
+    right: 30px;
+    top: 30px;
+    background: transparent;
+    border: 2px solid #00abf0;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+.img img:hover{
+
+    color: blue;
+    opacity: .5;
+}
